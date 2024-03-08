@@ -1,3 +1,5 @@
+<img width="605" alt="image" src="https://github.com/rangacodes/byte_codes/assets/123901125/e43b0a2b-e385-48e2-8176-16ddc0bd5677">
+
 ## Madhava Leibniz Series:
 
 ![1a3c2ae4ca63bab9ac81d947cf7e0338cff11c31](https://github.com/rangacodes/byte_codes/assets/123901125/a5406489-8c4a-421b-a48f-13fb2418a914)
