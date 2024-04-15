@@ -1,0 +1,40 @@
+Based on the HTML you've provided, I can extract and combine the text segments from the transcript into a single, continuous piece of text. Here's the extracted and concatenated transcript:
+
+"and then I'm going to talk about the difference between digital and analogue neural networks and why that difference is, I think is so scary. So since the 1950s, there have been two paradigms for intelligence. The logic inspired approach thinks the essence of intelligence is reasoning,"
+
+If there are more segments you need to include or if there's anything else you need, feel free to let me know!
+
+Prompt:
+
+I'm watching a lecture on youtube and I want the transcript of its audio. But the transcript is timestamped and segmented. I got the HTML code of the transcript box, can you extract the contents for me and present it in a single piece of text?
+
+Here's the html:
+
+</ytd-transcript-segment-renderer><ytd-transcript-segment-renderer class="style-scope ytd-transcript-segment-list-renderer" rounded-container=""><!--css-build:shady--><!--css-build:shady--><div class="segment style-scope ytd-transcript-segment-renderer" role="button" tabindex="0" aria-label="25 seconds and then I'm going to talk about
+the difference between digital and analogue neural networks and why that difference
+is, I think is so scary.">
+  <div class="segment-start-offset style-scope ytd-transcript-segment-renderer" tabindex="-1" aria-hidden="true">
+    <div class="segment-timestamp style-scope ytd-transcript-segment-renderer">
+      0:25
+    </div>
+  </div>
+  <dom-if restamp="" class="style-scope ytd-transcript-segment-renderer"><template is="dom-if"></template></dom-if>
+  <yt-formatted-string class="segment-text style-scope ytd-transcript-segment-renderer" aria-hidden="true" tabindex="-1">and then I'm going to talk about
+the difference between digital and analogue neural networks and why that difference
+is, I think is so scary.</yt-formatted-string>
+  <dom-if restamp="" class="style-scope ytd-transcript-segment-renderer"><template is="dom-if"></template></dom-if>
+</div>
+</ytd-transcript-segment-renderer><ytd-transcript-segment-renderer class="style-scope ytd-transcript-segment-list-renderer" rounded-container=""><!--css-build:shady--><!--css-build:shady--><div class="segment style-scope ytd-transcript-segment-renderer" role="button" tabindex="0" aria-label="35 seconds So since the 1950s, there
+have been two paradigms for intelligence. The logic inspired approach thinks
+the essence of intelligence is reasoning,">
+  <div class="segment-start-offset style-scope ytd-transcript-segment-renderer" tabindex="-1" aria-hidden="true">
+    <div class="segment-timestamp style-scope ytd-transcript-segment-renderer">
+      0:35
+    </div>
+  </div>
+  <dom-if restamp="" class="style-scope ytd-transcript-segment-renderer"><template is="dom-if"></template></dom-if>
+  <yt-formatted-string class="segment-text style-scope ytd-transcript-segment-renderer" aria-hidden="true" tabindex="-1">So since the 1950s, there
+have been two paradigms for intelligence. The logic inspired approach thinks
+the essence of intelligence is reasoning,</yt-formatted-string>
+  <dom-if restamp="" class="style-scope ytd-transcript-segment-renderer"><template is="dom-if"></template></dom-if>
+</div>
