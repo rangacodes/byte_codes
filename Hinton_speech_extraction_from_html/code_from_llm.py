@@ -20,4 +20,4 @@ def extract_transcript(html_file_path):
 # html_file_path = 'path_to_your_html_file.html' # changing this line to my path
 html_file_path = 'hinton_scary_ai_talk_html.txt'
 transcript = extract_transcript(html_file_path)
-print(transcript) # changing this line to join the segments with a space
+print(transcript)
