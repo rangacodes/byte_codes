@@ -5,15 +5,15 @@ import matplotlib.patches as patches
 from matplotlib.collections import PolyCollection
 
 # Parameters
-radius = 1.5  # Radius of the circle that the center traces
-line_length = 6  # Length of the line
+radius = 0.25  # Radius of the circle that the center traces
+line_length = 1  # Length of the line
 num_frames = 500  # Number of frames in the animation
 rotation_speed = 3 * 2 * np.pi / num_frames  # Speed of center rotation
 
 # Create figure and axis
 fig, ax = plt.subplots(figsize=(8, 8))
-ax.set_xlim(-6, 6)
-ax.set_ylim(-6, 6)
+ax.set_xlim(-1, 1)
+ax.set_ylim(-1.25, 0.75)
 ax.set_aspect('equal')
 ax.grid(True)
 ax.set_title('Kakeya\'s solution to the needle problem')
@@ -22,7 +22,7 @@ ax.set_title('Kakeya\'s solution to the needle problem')
 line, = ax.plot([], [], 'r-', lw=2)
 
 # Create a circle patch to show the path of the center
-circle = patches.Circle((0, 0), radius, fill=False, color='orange', linestyle='--')
+circle = patches.Circle((0, -0.25), radius, fill=False, color='orange', linestyle='--')
 ax.add_patch(circle)
 
 
@@ -52,7 +52,7 @@ def update(frame):
     # Calculate the center position (tracing a circle)
     center_angle = frame * rotation_speed - np.pi / 2
     center_x = radius * np.cos(center_angle)
-    center_y = radius * np.sin(center_angle)
+    center_y = radius * np.sin(center_angle) - radius
     
     # Calculate the rotation angle of the line (half the speed)
     line_angle = - (center_angle + np.pi/2) / 2
@@ -73,7 +73,6 @@ def update(frame):
     center_point.set_data([center_x], [center_y])
     endpoint1.set_data([x1], [y1])
     endpoint2.set_data([x2], [y2])
-    
     
     # Store the current line position
     line_positions.append([(x1, y1), (x2, y2)])
