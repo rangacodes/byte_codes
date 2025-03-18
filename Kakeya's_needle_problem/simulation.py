@@ -114,7 +114,4 @@ ax.text(0.05, 0.05, text_str, transform=ax.transAxes,
         bbox=dict(facecolor='white', alpha=0.8))
 
 plt.tight_layout()
-# plt.show()
-
-# Uncomment the following line to save the animation as a GIF
-ani.save('Kakeya\'s needle problem.gif', writer='pillow', fps=30)
+plt.show()
